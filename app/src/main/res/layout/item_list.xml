@@ -63,6 +63,17 @@
             android:textColor="?attr/colorAccent" />
 
         <ImageButton
+            android:id="@+id/buttonFavorite"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/textViewDeskripsi"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/buttonShare"
+            android:tint="#757575"
+            app:srcCompat="@drawable/ic_favorite_black_24dp" />
+
+        <ImageButton
             android:id="@+id/buttonShare"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="48dp"
